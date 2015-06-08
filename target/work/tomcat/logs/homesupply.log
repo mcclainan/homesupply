@@ -1,0 +1,112 @@
+[2015-06-07 17:20:55,004] INFO  : ContainerBase.[Tomcat].[localhost].[/homesupply] : Initializing Spring root WebApplicationContext
+[2015-06-07 17:20:58,103] INFO  : grails.plugin.hibernate3.HibernatePluginSupport : Set db generation strategy to 'create-drop' for datasource DEFAULT
+[2015-06-07 17:20:58,955] INFO  : grails.plugin.cache.CacheBeanPostProcessor : postProcessBeanDefinitionRegistry start
+[2015-06-07 17:20:58,956] INFO  : grails.plugin.cache.CacheBeanPostProcessor : postProcessBeanFactory
+[2015-06-07 17:20:59,650] WARN  : sf.ehcache.config.ConfigurationFactory   : No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/tony/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+[2015-06-07 17:21:01,033] INFO  : groovy.grails.scaffolding.AbstractGrailsTemplateGenerator : Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@60065cea: startup date [Sun Jun 07 17:20:58 CDT 2015]; parent: Root WebApplicationContext]
+[2015-06-07 17:21:02,847] INFO  : grails.plugin.resource.ResourceProcessor : Performing a full reload
+[2015-06-07 17:21:02,947] INFO  : grails.plugin.resource.ResourceProcessor : Loading resource declarations...
+[2015-06-07 17:21:02,947] INFO  : grails.plugin.resource.ResourceProcessor : Forgetting all known modules...
+[2015-06-07 17:21:02,947] INFO  : grails.plugin.resource.ResourceProcessor : Forgetting all known resources...
+[2015-06-07 17:21:03,034] WARN  : plugin.resource.module.ModuleDeclarationsFactory : 'grails.resources.modules' in config does not define any modules
+[2015-06-07 17:21:03,248] INFO  : grails.plugin.resource.ResourceProcessor : Finished full reload
+[2015-06-07 17:21:04,272] INFO  : grails.plugin.databasemigration.MigrationRunner : updateOnStart disabled for dataSource; not running migrations
+[2015-06-07 17:21:04,282] INFO  : ScaffoldingGrailsPlugin                  : configuring scaffolding...
+[2015-06-07 17:21:04,286] INFO  : ScaffoldingGrailsPlugin                  : done configuring scaffolding.
+[2015-06-07 17:21:04,386] INFO  : grails.web.context.GrailsConfigUtils     : [GrailsContextLoader] Grails application loaded.
+[2015-06-07 17:21:05,772] INFO  : ContainerBase.[Tomcat].[localhost].[/homesupply] : Initializing Spring FrameworkServlet 'grails'
+[2015-06-07 17:21:05,819] INFO  : apache.coyote.http11.Http11Protocol      : Starting ProtocolHandler ["http-bio-8080"]
+[2015-06-07 17:21:15,139] INFO  : ContainerBase.[Tomcat].[localhost].[/homesupply] : Initializing Spring FrameworkServlet 'gsp'
+[2015-06-07 17:21:15,139] INFO  : ContainerBase.[Tomcat].[localhost].[/homesupply] : GSP servlet initialized
+[2015-06-07 17:21:16,479] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:21:16,484] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:21:16,544] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:21:16,626] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:21:16,630] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:21:16,634] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:21:16,639] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:21:16,645] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:21:16,687] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:21:16,692] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:21:20,147] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:21:20,151] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:21:20,158] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:21:20,191] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:21:20,195] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:21:20,198] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:21:20,202] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:21:20,205] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:21:20,209] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:21:20,253] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:21:27,722] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:21:27,722] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:21:27,723] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:21:27,743] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:21:27,744] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:21:27,745] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:21:27,745] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:21:27,746] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:21:27,746] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:21:27,746] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:21:30,280] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:21:30,280] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:21:30,281] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:21:30,296] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:21:30,296] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:21:30,297] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:21:30,297] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:21:30,298] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:21:30,299] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:21:30,299] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:21:32,465] ERROR : grails.web.errors.GrailsExceptionResolver : NullPointerException occurred when processing request: [GET] /homesupply/shop/purchase
+Stacktrace follows:
+java.lang.NullPointerException
+	at org.macsuite.homesupply.ShopController.purchase(ShopController.groovy:22)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2015-06-07 17:23:13,457] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:23:13,457] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:23:13,458] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:23:13,460] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:23:13,461] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:23:13,461] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:23:13,461] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:23:13,462] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:23:13,462] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:23:13,462] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:23:17,580] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:23:17,580] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:23:17,581] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:23:17,583] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:23:17,583] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:23:17,584] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:23:17,584] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:23:17,584] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:23:17,584] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:23:17,585] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:23:22,861] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:23:22,862] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:23:22,862] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:23:22,865] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:23:22,866] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:23:22,867] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:23:22,867] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:23:22,867] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:23:22,868] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:23:22,868] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
+[2015-06-07 17:23:37,695] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/html5shiv.js
+[2015-06-07 17:23:37,696] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/main.css
+[2015-06-07 17:23:37,697] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/css/ie8.css
+[2015-06-07 17:23:37,701] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.min.js
+[2015-06-07 17:23:37,701] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.dropotron.min.js
+[2015-06-07 17:23:37,702] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/jquery.scrollgress.min.js
+[2015-06-07 17:23:37,702] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/skel.min.js
+[2015-06-07 17:23:37,702] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/util.js
+[2015-06-07 17:23:37,702] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/ie/respond.min.js
+[2015-06-07 17:23:37,703] WARN  : grails.plugin.resource.ResourceTagLib    : Invocation of <r:resource> for a resource that apparently doesn't exist: /homesupply/assets/js/main.js
